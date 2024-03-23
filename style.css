@@ -1,0 +1,503 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background-color: #F3F5FC;
+}
+
+#contentFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* secao da esquerda: link logo alura */
+
+header {
+    width: auto;
+    max-width: 120px;
+    height: auto;
+    max-height: 48px;
+    margin-top: 40px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+}
+
+/* secao do meio*/
+
+#middleContainer {
+    width: 680px;
+}
+
+/* textarea */
+
+#secaoDoTexto {
+    height: 48px;
+    margin-top: 168px;
+}
+
+#textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 680px;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0A3871;
+    background-color: #F3F5FC;
+}
+
+::placeholder {
+    color: #0A3871;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+/* texto informativo e buttons */
+
+#subMiddleContainer {
+    width: 680px;
+    margin-top: 566px;
+}
+
+/* texto informativo */
+
+#secaoTextoInformativo {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 252px;
+    height: auto;
+    max-height: 18px;
+}
+
+#textoInformativo {
+    opacity: 80%;
+    font-size: 12px;
+    line-height: 18px;
+    color: #495057;
+}
+
+#imagemExclamacao {
+    width: 16px;
+    height: 16px;
+}
+
+/* buttons */
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    max-height: 67px;
+    margin-top: 16px;
+}
+
+#buttonCriptografar {
+    width: 328px;
+    height: auto;
+    max-height: 67px;
+    border-radius: 24px;
+    border: none;
+    padding: 24px;
+    background-color: #0A3871;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#buttonCriptografar:hover {
+    transition: 0.3s;
+    border: 1px solid #FFFFFF;
+    background-color: #1c4b85;
+}
+
+#buttonCriptografar:active {
+    border: 1px solid #FFFFFF;
+    background-color: #2f5d96;
+}
+
+#buttonDescriptografar {
+    width: 328px;
+    height: auto;
+    max-height: 67px;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    padding: 24px;
+    background-color: #D8DFE8;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color: #0A3871;
+}
+
+#buttonDescriptografar:hover {
+    transition: 0.3s;
+    border: 1px solid #FFFFFF;
+    background-color: #d5d9df;
+}
+
+#buttonDescriptografar:active {
+    border: 1px solid #FFFFFF;
+    background-color: #e0e5ec;
+}
+
+/* Container Direito */
+
+#rightContainer {
+    width: 400px;
+    height: 888px;
+    margin-top: 40px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    background-color: #FFFFFF;
+}
+
+#imagemSemTexto {
+    max-width: auto;
+    height: 304px;
+    margin: 240px 25px 0px 25px;
+}
+
+#mensagemTextoNaoEncontrado {
+    max-width: auto;
+    height: auto;
+    max-height: 122px;
+    margin: 24px 30px 0px 30px;
+}
+
+#tituloDaMensagem {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    color: #343A40;
+}
+
+#paragrafoTextoNaoEncontrado {
+    margin-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #495057;
+}
+
+#secaoTextoResultado {
+    max-width: auto;
+    height: 709px;
+    max-height: auto;
+    margin: 32px 25px 0px 25px;
+}
+
+#textareaTextoResultado {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 100%;
+    height: 100%;
+    font-size: 24px;
+    line-height: 36px;
+    color: #495057;
+}
+
+#secaoButtonCopiarTexto {
+    max-width: auto;
+    height: 67px;
+    margin: 32px 25px 0px 25px;
+}
+
+#buttonCopiarTexto {
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    width: 100%;
+    height: 100%;
+    padding: 24px;
+    background-color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19.36px;
+    text-align: center;
+    color: #0A3871;
+}
+
+#buttonCopiarTexto:hover {
+    transition: 0.3s;
+    border: 1px solid #FFFFFF;
+    background-color: #e4e6e9;
+}
+
+#buttonCopiarTexto:active {
+    border: 1px solid #FFFFFF;
+    background-color: #f0f1f5;
+}
+
+footer {
+    text-align: center;
+    color: #777b7e;
+}
+
+#linkFooter {
+    text-decoration: none;
+    color: #0A3871;
+}
+
+#linkFooter:hover {
+    text-decoration: underline;
+    color: #537094;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1310px) {
+    #contentFlex {
+        margin: 24px 16px;
+        width: auto;
+    }
+
+    header {
+        width: 80px;
+    }
+
+    #middleContainer {
+        width: 530px;
+        margin-right: 30px;
+    }
+
+    #textarea {
+        max-width: 100%;
+    }
+
+    #subMiddleContainer {
+        max-width: 100%;
+    }
+
+    #buttons {
+        max-width: 100%;
+    }
+
+    #buttonCriptografar {
+        width: 250px;
+    }
+
+    #buttonDescriptografar {
+        width: 250px;
+    }
+
+    #rightContainer {
+        max-width: 350px;
+    }
+
+    #imagemSemTexto {
+        max-width: auto;
+        margin: 240px 25px 0px 25px;
+    }
+
+    #imagemSemTexto img {
+        max-width: 100%;
+    }
+
+    #mensagemTextoNaoEncontrado {
+        max-width: auto;
+        height: auto;
+        max-height: 122px;
+        margin: 24px 30px 0px 30px;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+}
+
+/* telas médias */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #contentFlex {
+        width: 89.58%;
+        margin: auto;
+        flex-direction: column;
+    }
+
+    header img {
+        margin-top: 33.42px;
+        margin-left: -40px;
+    }
+
+    #middleContainer {
+        width: 100%;
+    }
+
+    #secaoDoTexto {
+        width: 100%;
+        margin-top: 127px;
+    }
+
+    #textarea {
+        width: 100%;
+    }
+
+    #subMiddleContainer {
+        width: 100%;
+        margin-top: 443px;
+
+    }
+
+    #buttonDescriptografar {
+        width: 328px;
+        height: auto;
+        max-height: 67px;
+        border-radius: 24px;
+        border: 1px solid #0A3871;
+        padding: 24px;
+        background-color: #F3F5FC;
+        font-size: 16px;
+        line-height: 19.36px;
+        text-align: center;
+        color: #0A3871;
+    }
+
+    #rightContainer {
+        width: 100%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    #mensagemTextoNaoEncontrado {
+        max-width: auto;
+        margin: 30px 30px 30px 30px;
+    }
+
+    #imagemSemTexto {
+        display: none;
+    }
+
+    #secaoTextoResultado {
+        height: 140px;
+    }
+    
+    #textareaTextoResultado {
+        border: none;
+        outline: none;
+        resize: none;
+        width: 100%;
+        height: 100%;
+        font-size: 24px;
+        line-height: 36px;
+        color: #495057;
+    }
+    
+    #secaoButtonCopiarTexto {
+        margin-bottom: 32px;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+}
+
+/* telas pequenas */
+@media screen and (max-width: 767px) {
+
+    #contentFlex {
+        flex-direction: column;
+        margin: 24px 16px;
+        width: auto;
+    }
+
+    header {
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+
+    #logo {
+        margin-top: 0px;
+        margin-left: -19px;
+    }
+
+    #middleContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #secaoDoTexto {
+        margin-top: 56px;
+    }
+
+    #textarea {
+        width: 100%
+    }
+
+    #subMiddleContainer {
+        width: 100%;
+        height: 194px;
+        margin-top: 299px;
+    }
+
+    #buttons {
+        flex-direction: column;
+
+    }
+
+    #buttonCriptografar {
+        width: auto;
+    }
+
+    #buttonDescriptografar {
+        width: auto;
+        height: auto;
+        max-height: 67px;
+        border-radius: 24px;
+        border: 1px solid #0A3871;
+        padding: 24px;
+        background-color: #F3F5FC;
+        font-size: 16px;
+        line-height: 19.36px;
+        text-align: center;
+        color: #0A3871;
+        margin-top: 24px;
+    }
+
+    #rightContainer {
+        width: auto;
+        height: auto;
+        margin-top: 52px;
+    }
+
+    #mensagemTextoNaoEncontrado {
+        max-width: auto;
+        margin: 20px;
+        text-align: center;
+    }
+
+    #imagemSemTexto {
+        display: none;
+    }
+
+    #secaoTextoResultado {
+        height: 300px;
+    }
+    
+    #textareaTextoResultado {
+        border: none;
+        outline: none;
+        resize: none;
+        width: 100%;
+        height: 100%;
+        font-size: 24px;
+        line-height: 36px;
+        color: #495057;
+    }
+    
+    #secaoButtonCopiarTexto {
+        margin-bottom: 32px;
+    }
+
+    footer {
+        margin-bottom: 10px;
+    }
+}
