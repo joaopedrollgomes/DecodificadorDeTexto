@@ -1,9 +1,9 @@
 # Desafio ONE - Decodificador de Texto
 
-Este foi o desafio da formação Iniciante em Programação T6 - ONE, uma parceria da [Oracle](https://www.oracle.com/br/) com a [Alura](https://www.alura.com.br/). Foi um ótimo desafio que me ajudou a aprimorar meus conhecimentos em JavaScript, CSS e HTML.
+Este foi o desafio da formação Iniciante em Programação T6 - ONE, uma parceria da [Oracle](https://www.oracle.com/br/){:target="_blank"} com a [Alura](https://www.alura.com.br/){:target="_blank"}. Foi um ótimo desafio que me ajudou a aprimorar meus conhecimentos em JavaScript, CSS e HTML.
 
 ## Veja como ficou
-https://decodificador-de-texto-blush-seven.vercel.app/
+https://decodificador-de-texto-blush-seven.vercel.app/{:target="_blank"}
 
 ## Atualizações Futuras
 * Substituir alguns IDs por Classes no CSS;
@@ -11,8 +11,8 @@ https://decodificador-de-texto-blush-seven.vercel.app/
 * Simplificar o código/funções no JS.
 
 ## Planejamento
-* Utilizamos o [Trello](https://trello.com/home) para gerenciar o desenvolvimento do projeto, desde cards com materiais de apoio até as sprints/backlogs, seções em desenvolvimento, testes e seções concluídas;
-* O [Figma](https://www.figma.com/) me ajudou a estilizar a página desde a concepção inicial até a entrega do projeto.
+* Utilizamos o [Trello](https://trello.com/home){:target="_blank"} para gerenciar o desenvolvimento do projeto, desde cards com materiais de apoio até as sprints/backlogs, seções em desenvolvimento, testes e seções concluídas;
+* O [Figma](https://www.figma.com/){:target="_blank"} me ajudou a estilizar a página desde a concepção inicial até a entrega do projeto.
 
 ## O Projeto
 Uma aplicação que criptografa textos, permitindo a troca de mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
@@ -36,7 +36,7 @@ As "chaves" de criptografia que utilizaremos são:
 * Um rodapé com os dados da pessoa que desenvolveu o site.
 
 ## Documentação
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
-* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-* [API de Área de Transferência do JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API)
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML){:target="_blank"}
+* [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS){:target="_blank"}
+* [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript){:target="_blank"}
+* [API de Área de Transferência do JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API){:target="_blank"}
