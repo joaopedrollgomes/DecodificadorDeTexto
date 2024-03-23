@@ -2,6 +2,9 @@
 
 Este foi o desafio da formação Iniciante em Programação T6 - ONE, uma parceria da [Oracle](https://www.oracle.com/br/) com a [Alura](https://www.alura.com.br/). Foi um ótimo desafio que me ajudou a aprimorar meus conhecimentos em JavaScript, CSS e HTML.
 
+##Veja como ficou
+https://decodificador-de-texto-blush-seven.vercel.app/
+
 ## Atualizações Futuras
 * Substituir alguns IDs por Classes no CSS;
 * Padronizar o formato de estilização para facilitar atualizações;
