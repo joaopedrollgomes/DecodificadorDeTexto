@@ -8,7 +8,8 @@ https://decodificador-de-texto-blush-seven.vercel.app/
 ## Atualizações Futuras
 * Substituir alguns IDs por Classes no CSS;
 * Padronizar o formato de estilização para facilitar atualizações;
-* Simplificar o código/funções no JS.
+* Simplificar o código/funções no JS;
+* Add Modo Noturno.
 
 ## Planejamento
 * Utilizamos o [Trello](https://trello.com/home) para gerenciar o desenvolvimento do projeto, desde cards com materiais de apoio até as sprints/backlogs, seções em desenvolvimento, testes e seções concluídas;
