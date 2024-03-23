@@ -9,7 +9,7 @@ Este foi o desafio da formação Iniciante em Programação T6 - ONE, uma parcer
 
 ## Planejamento
 * Utilizamos o [Trello](https://trello.com/home) para gerenciar o desenvolvimento do projeto, desde cards com materiais de apoio até as sprints/backlogs, seções em desenvolvimento, testes e seções concluídas;
-* O [Figma](https://www.figma.com/) me ajudou a estilizar a página desde a concepção inicial até certo ponto.
+* O [Figma](https://www.figma.com/) me ajudou a estilizar a página desde a concepção inicial até a entrega do projeto.
 
 ## O Projeto
 Uma aplicação que criptografa textos, permitindo a troca de mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
