@@ -36,7 +36,7 @@ As "chaves" de criptografia que utilizaremos são:
 * Um rodapé com os dados da pessoa que desenvolveu o site.
 
 ## Documentação
-* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML){:target="_blank"}
+* [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML){target="_blank"}
 * [CSS3](https://developer.mozilla.org/pt-BR/docs/Web/CSS){:target="_blank"}
 * [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript){:target="_blank"}
 * [API de Área de Transferência do JavaScript](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard_API){:target="_blank"}
